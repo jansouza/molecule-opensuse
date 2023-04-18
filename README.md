@@ -1,1 +1,3 @@
-# Molecule OpenSuse# molecule-opensuse
+# molecule-opensuse
+
+Docker image for OpenSuse molecule test
