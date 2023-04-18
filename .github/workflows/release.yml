@@ -31,8 +31,8 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
-          build-args:
-            - VERSION=15.2
+          build-args: |
+            VERSION=15.2
           tags: |
             jansouza/molecule-opensuse:15.2
       
@@ -43,8 +43,8 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
-          build-args:
-            - VERSION=15.4
+          build-args: |
+            VERSION=15.4
           tags: |
             jansouza/molecule-opensuse:15.4
       
