@@ -1,0 +1,7 @@
+.git
+LICENSE
+*.md
+Dockerfile
+.github
+build.sh
+destroy.sh
